@@ -10,7 +10,6 @@ import XemSPTao from './user/XemSPTao'
 import FormTaoSP from './user/FormTaoSP'
 import FormTaoPhien from './user/FormTaoPhien'
 import PhienDauGia from './user/PhienDauGia'
-import Test from './test'
 import XemChiTietPDG from './user/XemChiTietPDG'
 import Tragia from './user/Tragia'
 
@@ -22,14 +21,14 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/admin" element={<Admin />}></Route>
         <Route path="/login-user" element={<LoginUser />}></Route>
-        <Route path="/register-user" element={<RegisterUser/>}></Route>
-        <Route path="/danhmuc" element={<Danhmuc/>}></Route>
-        <Route path="/sptao" element={<XemSPTao/>}></Route>
-        <Route path="/form-sptao" element={<FormTaoSP/>}></Route>
-        <Route path="/form-phientao" element={<FormTaoPhien/>}></Route>
-        <Route path="/phiendaugia" element={<PhienDauGia/>}></Route>
-        <Route path="/ctpdg" element={<XemChiTietPDG/>}></Route>
-        <Route path="/tragia" element={<Tragia/>}></Route>
+        <Route path="/register-user" element={<RegisterUser />}></Route>
+        <Route path="/danhmuc" element={<Danhmuc />}></Route>
+        <Route path="/sptao" element={<XemSPTao />}></Route>
+        <Route path="/form-sptao" element={<FormTaoSP />}></Route>
+        <Route path="/form-phientao" element={<FormTaoPhien />}></Route>
+        <Route path="/phiendaugia" element={<PhienDauGia />}></Route>
+        <Route path="/ctpdg" element={<XemChiTietPDG />}></Route>
+        <Route path="/tragia" element={<Tragia />}></Route>
       </Routes>
     </>
   )
